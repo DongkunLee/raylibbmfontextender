@@ -2,6 +2,8 @@
 
 ## Introduction 
 
+![Bitmap Font Loader Example](/Raylib Bitmap Font Loader Extender.png)
+
 This is extender for raylib's internal function LoadBMFont() 
 
 You can load mutiple atlas fnt font by this. 
