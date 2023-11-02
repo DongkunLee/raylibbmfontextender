@@ -22,7 +22,7 @@ rather than
 
 Feel free to use. You can use this at any purpose. 
 
-## Furthuer more
+## Furthur more
 
 [My Homepage Explanation](https://lawwiki.kr/doku.php/raylib:util:raylib_loadbmfont_extender)
 
