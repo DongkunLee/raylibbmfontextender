@@ -2,7 +2,8 @@
 
 ## Introduction 
 
-![Bitmap Font Loader Example](/Raylib Bitmap Font Loader Extender.png)
+
+![Bitmap Font Extender](https://github.com/DongkunLee/raylibbmfontextender/blob/main/Raylib%20Bitmap%20Font%20Loader%20Extender.png)
 
 This is extender for raylib's internal function LoadBMFont() 
 
@@ -20,6 +21,11 @@ rather than
 ## License 
 
 Feel free to use. You can use this at any purpose. 
+
+## Furthuer more
+
+[My Homepage Explanation](https://lawwiki.kr/doku.php/raylib:util:raylib_loadbmfont_extender)
+
 
 
 
