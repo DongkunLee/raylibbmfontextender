@@ -28,7 +28,8 @@ Feel free to use. You can use this at any purpose.
 
 
 ## History 
-2023. 11. 13. 
+
+-- 2023. 11. 13. 
 1. Modify font rect position 
 
 <pre>
@@ -47,6 +48,6 @@ Feel free to use. You can use this at any purpose.
 </pre>
 
 
-2023. 11. 2. 
+-- 2023. 11. 2. 
 Version 1.0.
 Created  By Dongkun Lee 
