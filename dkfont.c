@@ -81,7 +81,10 @@ Font LoadBMFontEX(const char *fileName)
     printf("    > Chars count: %i\n", glyphCount);
 
     // Compose correct path using route of .fnt file (fileName) and imFileName
-    char *imPath[10] = {0};
+    // char *imPath[totalPage] = {0};
+    char** imPath; 
+
+    imPath = malloc(sizeof(char) * 100);  // imPath Initialization
     char *lastSlash = NULL;
 
     for (int i = 0; i< totalPage; i++)
@@ -103,7 +106,7 @@ Font LoadBMFontEX(const char *fileName)
         // TRACELOGD("    > Image loading path: %s", imPath);
     }
 
-    Image imFont[10];
+    Image imFont[totalPage];
     
     for (int i = 0; i < totalPage; i++)
     {
@@ -173,7 +176,7 @@ Font LoadBMFontEX(const char *fileName)
         fileTextPtr += (lineBytes + 1);
 
         // Get character rectangle in the font atlas texture
-       font.recs[i] = (Rectangle){ (float)charX, (float)charY + 1024 * pageID, (float)charWidth, (float)charHeight };
+       font.recs[i] = (Rectangle){ (float)charX, (float)charY + (float)imHeight * pageID, (float)charWidth, (float)charHeight };
         // Save data properly in sprite font
         font.glyphs[i].value = charId;
         font.glyphs[i].offsetX = charOffsetX;
