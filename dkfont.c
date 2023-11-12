@@ -201,6 +201,7 @@ Font LoadBMFontEX(const char *fileName)
     else // TRACELOG(LOG_INFO, "FONT: [%s] Font loaded successfully (%i glyphs)", fileName, font.glyphCount);
         printf("FONT: [%s] Font loaded successfully (%i glyphs)", fileName, font.glyphCount);
 
+    free(imPath);
     return font;
 }
 
